@@ -1,3 +1,13 @@
+# ── Project-specific: generated artifacts ─────────────────────────────────────
+# Regenerate locally with: python train.py
+models/
+*.pkl
+*.parquet
+
+# Raw Book-Crossing dataset (download separately; see README)
+data/
+
+# ── Python ────────────────────────────────────────────────────────────────────
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
